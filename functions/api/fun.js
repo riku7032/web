@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>每日批评</title>
-</head>
-<body>
-    孙瑾是个大笨蛋！买个电脑都纠结这么久，现在全网公开批评！😋
-</body>
-<script>
-    export async function onRequest(context) {
+export async function onRequest(context) {
     // Contents of context object
     const {
       request, // same as existing Worker API
@@ -25,5 +13,4 @@
     return new Response("Hello, world!");
   
   }
-</script>
-</html>
+  
