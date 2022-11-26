@@ -1,0 +1,93 @@
+img {
+    width: 600px;
+}
+
+html {
+    background-color: #F6F0E6;
+}
+
+body{
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Slabo 27px', serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-weight: bold
+}
+
+logo{
+    display: flex;
+    justify-content: center;
+}
+logo svg{
+    margin-right: 10px;
+}
+
+logo a {
+    color: black;
+}
+
+nav a{
+    color: black;
+}
+nav a:hover{
+    color: #004EFF;
+    transition: 0.3s;
+}
+
+nav span{
+    margin: 0 10px;
+}
+
+main {
+    display: flex;
+    width: 700px;
+    border: 1px solid blue;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px auto;
+    padding: 35px;
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 0 #004EFF;
+    font-size: 22px;
+}
+
+/* main::after{
+    box-shadow: 5px 5px 5px black;
+} */
+
+#left {
+    width: 45%;
+}
+#svg{
+    display: flex;
+    justify-content: right;
+}
+
+#ph{
+    display: block;
+    font-size: 5px;
+    color: rgb(204, 202, 202);
+    margin-top: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: rgb(188, 185, 185);
+}
+
+footer div{
+    letter-spacing: 1px;
+}
+
+footer:hover{
+    color: #004EFF;
+    cursor: pointer;
+    transition: 0.3s;
+}
